@@ -1,0 +1,44 @@
+.post{
+    background-color: white;   
+    padding: 15px 25px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    width: 500px;
+
+}
+
+.post__header{
+    margin-bottom: 10px;
+    display: flex;
+
+}
+.post__info{
+    margin-left: 10px;
+}
+
+.post__info > h2{
+    font-size :13px;
+    margin-bottom: 6px;
+}
+
+.post__info > p{
+    font-size: 10.5px;
+    margin-bottom: 5px;
+}
+
+.post__body > p{
+    font-size: 18px;
+    text-align:inherit;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.post__body{
+    overflow-wrap: anywhere !important;
+  
+}
+
+.post__buttons{
+    display: flex;
+    justify-content: space-evenly;
+}
